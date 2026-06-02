@@ -30,16 +30,16 @@ window.THEMES = [
     emoji: "🏠",
     color: "#fb8500",
     words: [
-      { en: "house", ar: "منزل", emoji: "🏠" },
-      { en: "bedroom", ar: "غرفة النوم", emoji: "🛏️" },
-      { en: "bathroom", ar: "الحمّام", emoji: "🛁" },
-      { en: "kitchen", ar: "المطبخ", emoji: "🍳" },
-      { en: "living room", ar: "غرفة المعيشة", emoji: "🛋️" },
-      { en: "dining room", ar: "غرفة الطعام", emoji: "🍽️" },
-      { en: "door", ar: "باب", emoji: "🚪" },
-      { en: "window", ar: "نافذة", emoji: "🪟" },
-      { en: "key", ar: "مفتاح", emoji: "🔑" },
-      { en: "lamp", ar: "مصباح", emoji: "💡" }
+      { en: "house", ar: "منزل", emoji: "🏠", img: "img/house/house.jpg" },
+      { en: "bedroom", ar: "غرفة النوم", emoji: "🛏️", img: "img/house/bedroom.jpg" },
+      { en: "bathroom", ar: "الحمّام", emoji: "🛁", img: "img/house/bathroom.jpg" },
+      { en: "kitchen", ar: "المطبخ", emoji: "🍳", img: "img/house/kitchen.jpg" },
+      { en: "living room", ar: "غرفة المعيشة", emoji: "🛋️", img: "img/house/livingroom.jpg" },
+      { en: "dining room", ar: "غرفة الطعام", emoji: "🍽️", img: "img/house/diningroom.jpg" },
+      { en: "door", ar: "باب", emoji: "🚪", img: "img/house/door.jpg" },
+      { en: "window", ar: "نافذة", emoji: "🪟", img: "img/house/window.jpg" },
+      { en: "key", ar: "مفتاح", emoji: "🔑", img: "img/house/key.jpg" },
+      { en: "lamp", ar: "مصباح", emoji: "💡", img: "img/house/lamp.jpg" }
     ]
   },
   {
@@ -84,15 +84,15 @@ window.THEMES = [
     emoji: "☀️",
     color: "#4361ee",
     words: [
-      { en: "wake up", ar: "يستيقظ", emoji: "⏰" },
-      { en: "breakfast", ar: "فطور", emoji: "🥞" },
-      { en: "school", ar: "مدرسة", emoji: "🏫" },
-      { en: "lunch", ar: "غداء", emoji: "🍽️" },
-      { en: "play", ar: "يلعب", emoji: "⚽" },
-      { en: "read", ar: "يقرأ", emoji: "📖" },
-      { en: "homework", ar: "واجب", emoji: "📝" },
-      { en: "dinner", ar: "عشاء", emoji: "🍲" },
-      { en: "sleep", ar: "ينام", emoji: "😴" }
+      { en: "wake up", ar: "يستيقظ", emoji: "⏰", img: "img/myday/wakeup.jpg" },
+      { en: "breakfast", ar: "فطور", emoji: "🥞", img: "img/myday/breakfast.jpg" },
+      { en: "school", ar: "مدرسة", emoji: "🏫", img: "img/myday/school.jpg" },
+      { en: "lunch", ar: "غداء", emoji: "🍽️", img: "img/myday/lunch.jpg" },
+      { en: "play", ar: "يلعب", emoji: "⚽", img: "img/myday/play.jpg" },
+      { en: "read", ar: "يقرأ", emoji: "📖", img: "img/myday/read.jpg" },
+      { en: "homework", ar: "واجب", emoji: "📝", img: "img/myday/homework.jpg" },
+      { en: "dinner", ar: "عشاء", emoji: "🍲", img: "img/myday/dinner.jpg" },
+      { en: "sleep", ar: "ينام", emoji: "😴", img: "img/myday/sleep.jpg" }
     ]
   },
   {

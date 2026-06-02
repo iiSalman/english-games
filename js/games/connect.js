@@ -52,9 +52,7 @@
         });
 
         UI.shuffle(words).forEach(w => {
-          const b = UI.el("button", { class: "connect-item pic" }, [
-            UI.el("span", { class: "connect-emoji", text: w.emoji })
-          ]);
+          const b = UI.el("button", { class: "connect-item pic" }, [UI.pic(w, "connect-emoji")]);
           b._w = w;
           b.addEventListener("click", () => {
             if (b.classList.contains("done")) return;

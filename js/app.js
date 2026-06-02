@@ -36,6 +36,18 @@
   function enWord(text, cls) {
     return el("span", { class: "en " + (cls || ""), dir: "ltr", text: text });
   }
+  // A word's picture: a real photo if the word has one, otherwise its emoji.
+  function pic(word, cls) {
+    if (word.img) {
+      return el("img", {
+        class: "word-img " + (cls || ""),
+        src: word.img,
+        alt: word.en,
+        loading: "lazy"
+      });
+    }
+    return el("span", { class: "word-emoji " + (cls || ""), text: word.emoji });
+  }
 
   // Fixed round back button — lives outside normal flow so it can never widen
   // the layout, and sits where a child's thumb can always reach it.
@@ -103,7 +115,7 @@
     container.appendChild(overlay);
   }
 
-  window.UI = { el, shuffle, pickN, enWord, topBar, roundComplete, nextStep };
+  window.UI = { el, shuffle, pickN, enWord, pic, topBar, roundComplete, nextStep };
 
   // ---- screens ----
   function homeScreen() {

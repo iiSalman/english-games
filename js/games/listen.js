@@ -30,9 +30,7 @@
         const opts = UI.shuffle([w].concat(distractors));
         choices.innerHTML = "";
         opts.forEach(o => {
-          const btn = UI.el("button", { class: "choice-card" }, [
-            UI.el("span", { class: "choice-emoji", text: o.emoji })
-          ]);
+          const btn = UI.el("button", { class: "choice-card" }, [UI.pic(o, "choice-emoji")]);
           btn.addEventListener("click", () => {
             if (btn.classList.contains("locked")) return;
             if (o.en === w.en) {

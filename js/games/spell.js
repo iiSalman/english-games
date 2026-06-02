@@ -24,7 +24,7 @@
         stage.innerHTML = "";
         stage.appendChild(
           UI.el("div", { class: "spell-head" }, [
-            UI.el("span", { class: "spell-emoji", text: w.emoji }),
+            UI.pic(w, "spell-emoji"),
             UI.el("div", { class: "spell-ar", text: w.ar }),
             UI.el("button", { class: "speak-btn", title: "اسمع",
               onclick: () => speak(w.en) }, ["🔊"]),
