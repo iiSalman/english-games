@@ -126,27 +126,70 @@ body { padding: 16px; overflow-x: hidden; }
 }
 .back-fab:active { transform: translateY(2px); }
 
-/* ---------- Game menu ---------- */
-.game-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-  gap: 16px;
-}
-.game-card {
+/* ---------- Step journey (theme menu) ---------- */
+.step-path { display: flex; flex-direction: column; gap: 14px; max-width: 460px; margin: 0 auto; }
+.step-card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
   background: #fff;
   border: none;
-  border-radius: 24px;
-  padding: 20px 14px;
+  border-radius: 22px;
+  padding: 16px;
   cursor: pointer;
   box-shadow: var(--shadow);
-  text-align: center;
-  border-bottom: 7px solid var(--c);
+  text-align: start;
+  border-inline-end: 8px solid var(--c);
   transition: transform 0.12s ease;
 }
-.game-card:active { transform: translateY(3px) scale(0.98); }
-.game-emoji { font-size: 3rem; }
-.game-ar { font-size: 1.3rem; font-weight: 800; margin-top: 4px; }
-.game-desc { font-size: 0.95rem; color: #888; margin-top: 4px; }
+.step-card:active { transform: translateY(3px) scale(0.99); }
+.step-num {
+  flex-shrink: 0;
+  width: 38px; height: 38px;
+  border-radius: 50%;
+  background: var(--c);
+  color: #fff;
+  font-weight: 800;
+  font-size: 1.3rem;
+  display: flex; align-items: center; justify-content: center;
+  font-family: "Fredoka", sans-serif;
+}
+.step-emoji { font-size: 2.6rem; flex-shrink: 0; }
+.step-body { flex: 1; min-width: 0; }
+.step-ar { font-size: 1.3rem; font-weight: 800; }
+.step-desc { font-size: 0.95rem; color: #888; }
+.step-tag {
+  flex-shrink: 0;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #b8860b;
+  background: #fff6da;
+  padding: 5px 10px;
+  border-radius: 999px;
+}
+.step-card.learn .step-tag { color: #2a7; background: #e6f7ee; }
+
+/* ---------- Connect the correct ones ---------- */
+.connect-wrap { display: flex; gap: 26px; justify-content: center; width: min(94vw, 460px); }
+.connect-col { display: flex; flex-direction: column; gap: 12px; flex: 1; }
+.connect-item {
+  background: #fff;
+  border: none;
+  border-radius: 16px;
+  padding: 14px 8px;
+  min-height: 58px;
+  cursor: pointer;
+  box-shadow: var(--shadow);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1.3rem; font-weight: 700;
+  transition: transform 0.1s ease;
+}
+.connect-item.pic { font-size: 2.4rem; }
+.connect-item:active { transform: scale(0.96); }
+.connect-item.sel { outline: 4px solid var(--gold); transform: scale(1.03); }
+.connect-item.done { background: #d8f5e6; box-shadow: 0 0 0 4px var(--good); opacity: 0.85; cursor: default; }
+.connect-item.shake { animation: shake 0.4s ease; background: #ffe0e0; }
+.connect-emoji { line-height: 1; }
 
 /* ---------- Shared game area ---------- */
 .game-area { display: flex; flex-direction: column; align-items: center; }
@@ -290,7 +333,7 @@ body { padding: 16px; overflow-x: hidden; }
 .spell-emoji { font-size: 3.4rem; }
 .spell-ar { font-size: 1.4rem; font-weight: 800; color: #fff; }
 .spell-head .q-progress { margin: 0; }
-.slots { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; margin: 14px 0; }
+.slots { display: flex; direction: ltr; gap: 8px; justify-content: center; flex-wrap: wrap; margin: 14px 0; }
 .slot {
   width: 44px; height: 54px;
   border-radius: 12px;
@@ -303,7 +346,7 @@ body { padding: 16px; overflow-x: hidden; }
 .slot.filled { background: #fff; color: var(--ink); border-style: solid; border-color: #fff; }
 .slot.ok { background: #d8f5e6; border-color: var(--good); }
 .slot.bad { background: #ffe0e0; border-color: var(--bad); animation: shake 0.4s ease; }
-.letter-bank { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; }
+.letter-bank { display: flex; direction: ltr; gap: 8px; justify-content: center; flex-wrap: wrap; }
 .tile {
   min-width: 46px; height: 54px;
   border: none; border-radius: 12px;

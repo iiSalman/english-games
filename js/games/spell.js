@@ -94,7 +94,13 @@
       function next() {
         qi++;
         if (qi >= N) {
-          UI.roundComplete(container, earned, () => Games.spell.render(container, theme), "theme/" + theme.id);
+          UI.roundComplete(
+            container,
+            earned,
+            () => Games.spell.render(container, theme),
+            "theme/" + theme.id,
+            UI.nextStep(theme.id, "spell")
+          );
           return;
         }
         ask();

@@ -56,7 +56,13 @@
       function next() {
         qi++;
         if (qi >= N) {
-          UI.roundComplete(container, earned, () => Games.listen.render(container, theme), "theme/" + theme.id);
+          UI.roundComplete(
+            container,
+            earned,
+            () => Games.listen.render(container, theme),
+            "theme/" + theme.id,
+            UI.nextStep(theme.id, "listen")
+          );
           return;
         }
         ask();

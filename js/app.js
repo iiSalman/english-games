@@ -66,24 +66,44 @@
     ]);
   }
 
-  // Celebration screen at the end of a game round.
-  function roundComplete(container, earned, onAgain, backHash) {
+  // The 3-step learning journey per theme: learn -> listen test -> spell test.
+  const STEPS = [
+    { id: "connect", ar: "تعلّم الوحدة", emoji: "🔗", desc: "صِل الكلمة بالصورة", test: false },
+    { id: "listen", ar: "اختبار الاستماع", emoji: "👂", desc: "اسمع الكلمة واختر الصورة", test: true },
+    { id: "spell", ar: "اختبار الكتابة", emoji: "🔤", desc: "رتّب الحروف لتكوين الكلمة", test: true }
+  ];
+  // The step that follows the given one (or null if it's the last).
+  function nextStep(themeId, stepId) {
+    const i = STEPS.findIndex(s => s.id === stepId);
+    if (i < 0 || i >= STEPS.length - 1) return null;
+    const n = STEPS[i + 1];
+    return { hash: "game/" + themeId + "/" + n.id, label: "▶ التالي: " + n.ar, step: n };
+  }
+
+  // Celebration screen at the end of a test round. `next` (optional) links onward.
+  function roundComplete(container, earned, onAgain, backHash, next) {
     sfx.win();
+    const buttons = [];
+    if (next)
+      buttons.push(
+        el("button", { class: "big-btn primary", onclick: () => (location.hash = next.hash) }, [
+          next.label
+        ])
+      );
+    buttons.push(el("button", { class: "big-btn", onclick: onAgain }, ["🔁 إعادة"]));
+    buttons.push(
+      el("button", { class: "big-btn", onclick: () => (location.hash = backHash) }, ["🏠 رجوع"])
+    );
     const overlay = el("div", { class: "round-done" }, [
       el("div", { class: "confetti", text: "🎉" }),
       el("h2", { text: "أحسنت!" }),
       el("p", { class: "earned", html: "ربحت <b>" + earned + "</b> ⭐ في هذه الجولة!" }),
-      el("div", { class: "row" }, [
-        el("button", { class: "big-btn primary", onclick: onAgain }, ["🔁 العب مرة أخرى"]),
-        el("button", { class: "big-btn", onclick: () => (location.hash = backHash) }, [
-          "🎮 ألعاب أخرى"
-        ])
-      ])
+      el("div", { class: "row" }, buttons)
     ]);
     container.appendChild(overlay);
   }
 
-  window.UI = { el, shuffle, pickN, enWord, topBar, roundComplete };
+  window.UI = { el, shuffle, pickN, enWord, topBar, roundComplete, nextStep };
 
   // ---- screens ----
   function homeScreen() {
@@ -128,34 +148,34 @@
     );
   }
 
-  const GAMES = [
-    { id: "flashcards", ar: "البطاقات", emoji: "🃏", desc: "تعلّم الكلمات واسمع نطقها" },
-    { id: "memory", ar: "طابق الصور", emoji: "🧠", desc: "جد الأزواج المتشابهة" },
-    { id: "listen", ar: "اسمع واختر", emoji: "👂", desc: "اسمع الكلمة واختر الصورة" },
-    { id: "spell", ar: "اكتب الكلمة", emoji: "🔤", desc: "رتّب الحروف لتكوين الكلمة" }
-  ];
-
   function themeScreen(themeId) {
     const theme = THEMES.find(t => t.id === themeId);
     if (!theme) return (location.hash = "");
     root.innerHTML = "";
     root.appendChild(UI.topBar(theme.emoji + " " + theme.ar, ""));
+    root.appendChild(
+      el("p", { class: "hint", text: "ابدأ بالتعلّم ثم اجتز الاختبارَين بالترتيب 👇" })
+    );
 
-    const grid = el("div", { class: "game-grid" });
-    GAMES.forEach(g => {
-      grid.appendChild(
+    const path = el("div", { class: "step-path" });
+    STEPS.forEach((s, idx) => {
+      path.appendChild(
         el("button", {
-          class: "game-card",
+          class: "step-card" + (s.test ? " test" : " learn"),
           style: "--c:" + theme.color,
-          onclick: () => (location.hash = "game/" + theme.id + "/" + g.id)
+          onclick: () => (location.hash = "game/" + theme.id + "/" + s.id)
         }, [
-          el("div", { class: "game-emoji", text: g.emoji }),
-          el("div", { class: "game-ar", text: g.ar }),
-          el("div", { class: "game-desc", text: g.desc })
+          el("div", { class: "step-num", text: String(idx + 1) }),
+          el("div", { class: "step-emoji", text: s.emoji }),
+          el("div", { class: "step-body" }, [
+            el("div", { class: "step-ar", text: s.ar }),
+            el("div", { class: "step-desc", text: s.desc })
+          ]),
+          el("div", { class: "step-tag", text: s.test ? "⭐ اختبار" : "تعلّم" })
         ])
       );
     });
-    root.appendChild(grid);
+    root.appendChild(path);
   }
 
   function gameScreen(themeId, gameId) {
