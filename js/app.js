@@ -37,14 +37,20 @@
     return el("span", { class: "en " + (cls || ""), dir: "ltr", text: text });
   }
   // A word's picture: a real photo if the word has one, otherwise its emoji.
-  function pic(word, cls) {
+  // Photos get the Arabic word written across the bottom so it's unmistakable.
+  // Pass {caption:false} to omit the label (e.g. spell screen shows it separately).
+  function pic(word, cls, opts) {
+    opts = opts || {};
     if (word.img) {
-      return el("img", {
-        class: "word-img " + (cls || ""),
-        src: word.img,
-        alt: word.en,
-        loading: "lazy"
-      });
+      const img = el("img", { class: "word-img", src: word.img, alt: word.en, loading: "lazy" });
+      if (opts.caption === false) {
+        img.className = "word-img " + (cls || "");
+        return img;
+      }
+      return el("figure", { class: "pic-fig " + (cls || "") }, [
+        img,
+        el("figcaption", { class: "pic-cap", dir: "rtl", text: word.ar })
+      ]);
     }
     return el("span", { class: "word-emoji " + (cls || ""), text: word.emoji });
   }

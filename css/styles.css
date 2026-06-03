@@ -193,10 +193,28 @@ body { padding: 16px; overflow-x: hidden; }
 
 /* ---------- Real photos for vocabulary words ---------- */
 .word-img { object-fit: cover; border-radius: 12px; display: block; background: #e9ecf5; }
-.connect-item.pic { padding: 6px; }
-.connect-item.pic .word-img { width: 100%; height: 76px; }
-.choice-card .word-img { width: 100%; height: 100%; border-radius: 22px; }
 .word-img.spell-emoji { width: 84px; height: 84px; }
+
+/* Photo with the Arabic word written across the bottom */
+.pic-fig { position: relative; display: block; margin: 0; overflow: hidden; border-radius: 12px; }
+.pic-fig .word-img { width: 100%; height: 100%; border-radius: 0; }
+.pic-cap {
+  position: absolute;
+  inset-inline: 0;
+  bottom: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.82), rgba(0,0,0,0.45) 60%, rgba(0,0,0,0));
+  color: #fff;
+  font-weight: 800;
+  text-align: center;
+  padding: 18px 6px 6px;
+  line-height: 1.15;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.7);
+}
+.connect-item.pic { padding: 6px; }
+.connect-item.pic .pic-fig { width: 100%; height: 84px; }
+.connect-item.pic .pic-cap { font-size: 1rem; padding-top: 14px; }
+.choice-card .pic-fig { width: 100%; height: 100%; border-radius: 22px; }
+.choice-card .pic-cap { font-size: 1.25rem; }
 
 /* ---------- Shared game area ---------- */
 .game-area { display: flex; flex-direction: column; align-items: center; }
