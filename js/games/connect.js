@@ -35,54 +35,61 @@
         wrap.appendChild(rightCol);
         container.appendChild(wrap);
 
-        let selected = null; // {w, el}
+        let selected = null; // { w, el, side }
         let matched = 0;
+
+        // A tap can start from EITHER side. First tap selects; a tap on the
+        // opposite side tries to match; a tap on the same side moves the
+        // selection; tapping the selected item again clears it.
+        function handle(w, el, side) {
+          if (el.classList.contains("done")) return;
+          speak(w.en);
+          if (!selected) {
+            el.classList.add("sel");
+            selected = { w: w, el: el, side: side };
+            return;
+          }
+          if (selected.el === el) {
+            el.classList.remove("sel");
+            selected = null;
+            return;
+          }
+          if (selected.side === side) {
+            selected.el.classList.remove("sel");
+            el.classList.add("sel");
+            selected = { w: w, el: el, side: side };
+            return;
+          }
+          // opposite sides — attempt a match
+          const first = selected;
+          selected = null;
+          if (first.w.en === w.en) {
+            first.el.classList.add("done");
+            first.el.classList.remove("sel");
+            el.classList.add("done");
+            sfx.correct();
+            matched++;
+            if (matched === words.length) setTimeout(nextGroup, 700);
+          } else {
+            sfx.wrong();
+            el.classList.add("shake");
+            first.el.classList.add("shake");
+            setTimeout(() => {
+              el.classList.remove("shake");
+              first.el.classList.remove("shake", "sel");
+            }, 450);
+          }
+        }
 
         UI.shuffle(words).forEach(w => {
           const b = UI.el("button", { class: "connect-item word" }, [UI.enWord(w.en)]);
-          b._w = w;
-          b.addEventListener("click", () => {
-            if (b.classList.contains("done")) return;
-            speak(w.en);
-            leftCol.querySelectorAll(".connect-item").forEach(x => x.classList.remove("sel"));
-            b.classList.add("sel");
-            selected = { w: w, el: b };
-          });
+          b.addEventListener("click", () => handle(w, b, "word"));
           leftCol.appendChild(b);
         });
 
         UI.shuffle(words).forEach(w => {
           const b = UI.el("button", { class: "connect-item pic" }, [UI.pic(w, "connect-emoji")]);
-          b._w = w;
-          b.addEventListener("click", () => {
-            if (b.classList.contains("done")) return;
-            if (!selected) {
-              speak(w.en);
-              return;
-            }
-            if (selected.w.en === w.en) {
-              selected.el.classList.add("done");
-              selected.el.classList.remove("sel");
-              b.classList.add("done");
-              sfx.correct();
-              speak(w.en);
-              selected = null;
-              matched++;
-              if (matched === words.length) {
-                setTimeout(nextGroup, 700);
-              }
-            } else {
-              sfx.wrong();
-              b.classList.add("shake");
-              selected.el.classList.add("shake");
-              const prev = selected;
-              setTimeout(() => {
-                b.classList.remove("shake");
-                prev.el.classList.remove("shake", "sel");
-              }, 450);
-              selected = null;
-            }
-          });
+          b.addEventListener("click", () => handle(w, b, "pic"));
           rightCol.appendChild(b);
         });
       }
