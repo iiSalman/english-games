@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>مصادر الصور والتراخيص — ألعاب الإنجليزي</title>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500;700;800&family=Fredoka:wght@500;600&display=swap" rel="stylesheet" />
+  <style>
+    body { margin:0; padding:24px 16px 60px; font-family:"Baloo Bhaijaan 2",system-ui,sans-serif;
+      background:linear-gradient(160deg,#6a8dff,#9b5de5); color:#2b2d42; min-height:100vh; }
+    .wrap { max-width:760px; margin:0 auto; }
+    h1 { color:#fff; text-align:center; text-shadow:0 3px 0 rgba(0,0,0,.15); }
+    .intro { color:#fff; text-align:center; opacity:.95; margin-bottom:20px; line-height:1.7; }
+    a.home { display:inline-block; background:#fff; border-radius:999px; padding:9px 18px;
+      font-weight:700; text-decoration:none; color:#2b2d42; box-shadow:0 6px 14px rgba(0,0,0,.18); margin-bottom:18px; }
+    .en { direction:ltr; unicode-bidi:isolate; font-family:"Fredoka",sans-serif; }
+    ul { list-style:none; padding:0; margin:0; display:grid; gap:10px; }
+    li { background:#fff; border-radius:16px; padding:12px 14px; display:flex; gap:12px; align-items:center;
+      box-shadow:0 4px 10px rgba(0,0,0,.12); }
+    li img { width:64px; height:64px; object-fit:cover; border-radius:10px; flex-shrink:0; background:#eef; }
+    .meta { flex:1; min-width:0; font-size:.95rem; }
+    .meta .w { font-weight:800; }
+    .meta .t { color:#555; }
+    .meta a { color:#5a3bd6; text-decoration:none; }
+    .lic { flex-shrink:0; font-size:.8rem; font-weight:700; color:#b8860b; background:#fff6da;
+      padding:5px 9px; border-radius:999px; white-space:nowrap; }
+    .note { color:#fff; text-align:center; margin-top:24px; font-size:.9rem; opacity:.9; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div style="text-align:center"><a class="home" href="index.html">🏠 العودة للألعاب</a></div>
+    <h1>📷 مصادر الصور</h1>
+    <p class="intro">
+      صور موضوعَي «منزلي» و«يومي» حقيقية ومأخوذة من مصادر بترخيص مفتوح
+      (المشاع الإبداعي / الملكية العامة)، ويسعدنا شكر مصوّريها.<br />
+      The "My House" &amp; "My Day" photos are real, openly-licensed images (Creative Commons / public domain). Credit to their creators below.
+    </p>
+    <ul id="list"></ul>
+    <p class="note">باقي المواضيع تستخدم رموزًا تعبيرية (إيموجي). • Other themes use emoji.</p>
+  </div>
+
+  <script>
+    const LICNAME = { "CC0":"CC0", "PDM":"Public Domain", "BY":"CC BY", "BY-SA":"CC BY-SA" };
+    fetch("img/credits.json")
+      .then(r => r.json())
+      .then(items => {
+        const ul = document.getElementById("list");
+        items.forEach(c => {
+          const li = document.createElement("li");
+          const lic = (c.license || "").toUpperCase();
+          const licLabel = (LICNAME[lic] || lic) + (c.license_version ? " " + c.license_version : "");
+          const title = c.title || "(untitled)";
+          const creator = c.creator || "Unknown";
+          const titleHtml = c.source_page
+            ? `<a href="${c.source_page}" target="_blank" rel="noopener">${title}</a>` : title;
+          const licHtml = c.license_url
+            ? `<a href="${c.license_url}" target="_blank" rel="noopener" class="lic">${licLabel}</a>`
+            : `<span class="lic">${licLabel}</span>`;
+          li.innerHTML =
+            `<img src="${c.file}" alt="${c.word}" loading="lazy" />` +
+            `<div class="meta"><div class="w en">${c.word}</div>` +
+            `<div class="t">“${titleHtml}” — ${creator}</div></div>` + licHtml;
+          ul.appendChild(li);
+        });
+      })
+      .catch(() => {
+        document.getElementById("list").innerHTML =
+          "<li>تعذّر تحميل قائمة المصادر.</li>";
+      });
+  </script>
+</body>
+</html>
