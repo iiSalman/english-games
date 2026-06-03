@@ -1,30 +1,30 @@
 // Listen & pick: hear an English word, tap the matching picture.
-// 8 questions per round; 4 emoji choices each; correct answer earns a star.
+// 6 short questions per round; 4 choices each; correct answer earns a star.
 (function () {
   window.Games = window.Games || {};
   window.Games.listen = {
     render: function (container, theme) {
       const UI = window.UI;
       const pool = theme.words;
-      const N = Math.min(8, pool.length);
+      const N = Math.min(6, pool.length);
       const queue = UI.pickN(pool, N);
       let qi = 0;
       let earned = 0;
 
       const hint = UI.el("p", { class: "hint", text: "اسمع الكلمة ثم اختر الصورة الصحيحة 👂" });
       const replay = UI.el("button", { class: "speak-btn big-speak", title: "أعد" }, ["🔊"]);
-      const progress = UI.el("div", { class: "q-progress" });
+      const bar = UI.progress(N);
       const choices = UI.el("div", { class: "listen-choices" });
       container.appendChild(hint);
       container.appendChild(replay);
-      container.appendChild(progress);
+      container.appendChild(bar.el);
       container.appendChild(choices);
 
       replay.addEventListener("click", () => speak(queue[qi].en));
 
       function ask() {
         const w = queue[qi];
-        progress.textContent = "سؤال " + (qi + 1) + " / " + N;
+        bar.set(qi);
         // build 4 choices: the answer + 3 distractors from the same theme
         const distractors = UI.pickN(pool.filter(x => x.en !== w.en), 3);
         const opts = UI.shuffle([w].concat(distractors));
@@ -38,12 +38,15 @@
               choices.querySelectorAll(".choice-card").forEach(c => c.classList.add("locked"));
               sfx.correct();
               speak(w.en);
+              bar.set(qi + 1);
               Stars.add(1, btn);
               earned++;
               setTimeout(next, 900);
             } else {
+              // gentle: mark wrong, then re-play the word so the child can try again
               btn.classList.add("wrong", "locked");
               sfx.wrong();
+              setTimeout(() => speak(w.en), 450);
             }
           });
           choices.appendChild(btn);

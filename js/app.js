@@ -72,6 +72,26 @@
     if (b) b.style.display = "none";
   }
 
+  // Always-visible sound on/off button (top corner, opposite the back button).
+  function ensureSoundButton() {
+    let b = document.getElementById("soundFab");
+    if (!b) {
+      b = el("button", { id: "soundFab", class: "sound-fab" });
+      b.onclick = () => {
+        const m = Sound.toggle();
+        paintSound(b, m);
+        if (!m) sfx.correct(); // a tiny chime confirming sound is back on
+      };
+      document.body.appendChild(b);
+    }
+    paintSound(b, Sound.isMuted());
+  }
+  function paintSound(b, muted) {
+    b.textContent = muted ? "🔇" : "🔊";
+    b.title = muted ? "الصوت مغلق" : "الصوت مفتوح";
+    b.classList.toggle("off", muted);
+  }
+
   // Centered title bar (star badge + title stacked) shown inside games/menus.
   function topBar(title, backHash) {
     setBackButton(backHash);
@@ -82,6 +102,23 @@
       ]),
       el("h2", { class: "topbar-title", text: title })
     ]);
+  }
+
+  // A friendly segmented progress bar for test rounds (fills as the child advances).
+  function progress(total) {
+    const wrap = el("div", { class: "prog" });
+    const segs = [];
+    for (let i = 0; i < total; i++) {
+      const s = el("span", { class: "prog-seg" });
+      segs.push(s);
+      wrap.appendChild(s);
+    }
+    return {
+      el: wrap,
+      set: function (done) {
+        segs.forEach((s, i) => s.classList.toggle("on", i < done));
+      }
+    };
   }
 
   // The 3-step learning journey per theme: learn -> listen test -> spell test.
@@ -121,7 +158,7 @@
     container.appendChild(overlay);
   }
 
-  window.UI = { el, shuffle, pickN, enWord, pic, topBar, roundComplete, nextStep };
+  window.UI = { el, shuffle, pickN, enWord, pic, progress, topBar, roundComplete, nextStep };
 
   // ---- screens ----
   function homeScreen() {
@@ -154,16 +191,29 @@
 
     root.appendChild(head);
     root.appendChild(grid);
-    root.appendChild(
-      el("footer", { class: "foot" }, [
-        el("button", {
-          class: "reset-link",
-          onclick: () => {
-            if (confirm("هل تريد تصفير عدد النجوم والبدء من جديد؟")) Stars.reset();
-          }
-        }, ["تصفير النجوم"])
-      ])
+    // Reset is a parent action: requires a deliberate press-and-hold so a child
+    // can't wipe their stars with a stray tap. A quick tap does nothing.
+    const resetBtn = el("button", { class: "reset-link parent" }, [
+      "⚙︎ تصفير النجوم — اضغط مطولاً"
+    ]);
+    let holdTimer = null;
+    const startHold = () => {
+      resetBtn.classList.add("holding");
+      holdTimer = setTimeout(() => {
+        resetBtn.classList.remove("holding");
+        if (confirm("إجراء خاص بالأهل: تصفير كل النجوم والبدء من جديد؟")) Stars.reset();
+      }, 1100);
+    };
+    const cancelHold = () => {
+      clearTimeout(holdTimer);
+      resetBtn.classList.remove("holding");
+    };
+    resetBtn.addEventListener("pointerdown", startHold);
+    ["pointerup", "pointerleave", "pointercancel"].forEach(ev =>
+      resetBtn.addEventListener(ev, cancelHold)
     );
+    resetBtn.addEventListener("click", e => e.preventDefault());
+    root.appendChild(el("footer", { class: "foot" }, [resetBtn]));
   }
 
   function themeScreen(themeId) {
@@ -214,6 +264,7 @@
     if (parts[0] === "theme" && parts[1]) themeScreen(parts[1]);
     else if (parts[0] === "game" && parts[1] && parts[2]) gameScreen(parts[1], parts[2]);
     else homeScreen();
+    ensureSoundButton();
     Stars.refresh();
   }
 

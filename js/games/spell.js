@@ -12,12 +12,15 @@
       let earned = 0;
 
       const hint = UI.el("p", { class: "hint", text: "رتّب الحروف لتكوين الكلمة 🔤" });
+      const bar = UI.progress(N);
       const stage = UI.el("div", { class: "spell-stage" });
       container.appendChild(hint);
+      container.appendChild(bar.el);
       container.appendChild(stage);
 
       function ask() {
         const w = queue[qi];
+        bar.set(qi);
         const letters = w.en.split("");
         let placed = []; // indices into bank, in slot order
 
@@ -80,6 +83,7 @@
             slotEls.forEach(s => s.classList.add("ok"));
             sfx.correct();
             speak(w.en);
+            bar.set(qi + 1);
             Stars.add(1, slots);
             earned++;
             setTimeout(next, 1000);

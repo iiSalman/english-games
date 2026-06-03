@@ -16,9 +16,22 @@
     speechSynthesis.onvoiceschanged = pickVoice;
   }
 
+  // Global sound on/off, remembered across sessions.
+  const MUTE_KEY = "eg_muted";
+  let muted = localStorage.getItem(MUTE_KEY) === "1";
+  window.Sound = {
+    isMuted: function () { return muted; },
+    toggle: function () {
+      muted = !muted;
+      localStorage.setItem(MUTE_KEY, muted ? "1" : "0");
+      if (muted && window.speechSynthesis) speechSynthesis.cancel();
+      return muted;
+    }
+  };
+
   // Speak an English word slowly and clearly for a young learner.
   window.speak = function (text) {
-    if (!window.speechSynthesis) return;
+    if (muted || !window.speechSynthesis) return;
     speechSynthesis.cancel();
     const u = new SpeechSynthesisUtterance(text);
     u.lang = "en-US";
@@ -38,6 +51,7 @@
     return ctx;
   }
   function tone(freq, start, dur, type, gain) {
+    if (muted) return;
     const c = ac();
     if (!c) return;
     const o = c.createOscillator();
