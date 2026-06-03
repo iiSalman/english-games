@@ -170,21 +170,21 @@
         el("span", { "data-star-total": "1", text: String(Stars.get()) })
       ]),
       el("h1", { class: "logo", text: "ألعاب الإنجليزي" }),
-      el("p", { class: "subtitle", text: "اختر موضوعًا وابدأ اللعب! 🎈" })
+      el("p", { class: "subtitle", text: "اختر وحدة وابدأ التعلّم! 🎈" })
     ]);
 
     const grid = el("div", { class: "theme-grid" });
-    THEMES.forEach(t => {
+    UNITS.forEach(u => {
       grid.appendChild(
         el("button", {
-          class: "theme-card",
-          style: "--c:" + t.color,
-          onclick: () => (location.hash = "theme/" + t.id)
+          class: "theme-card unit-card",
+          style: "--c:" + u.color,
+          onclick: () => (location.hash = "unit/" + u.id)
         }, [
-          el("div", { class: "theme-emoji", text: t.emoji }),
-          el("div", { class: "theme-ar", text: t.ar }),
-          UI.enWord(t.en, "theme-en"),
-          el("div", { class: "theme-count", text: t.words.length + " كلمات" })
+          el("div", { class: "unit-badge", text: u.num }),
+          el("div", { class: "theme-emoji", text: u.emoji }),
+          el("div", { class: "theme-ar", text: u.ar }),
+          UI.enWord(u.en, "theme-en")
         ])
       );
     });
@@ -216,11 +216,60 @@
     root.appendChild(el("footer", { class: "foot" }, [resetBtn]));
   }
 
+  // A unit screen: its vocabulary topics + the build-the-sentence tile.
+  function unitScreen(unitId) {
+    const unit = UNITS.find(u => u.id === unitId);
+    if (!unit) return (location.hash = "");
+    root.innerHTML = "";
+    root.appendChild(UI.topBar("الوحدة " + unit.num + ": " + unit.ar, ""));
+    root.appendChild(el("p", { class: "hint", text: "اختر موضوعًا لتتعلّمه 👇" }));
+
+    const grid = el("div", { class: "game-grid" });
+    THEMES.filter(t => t.unit === unitId).forEach(t => {
+      grid.appendChild(
+        el("button", {
+          class: "game-card",
+          style: "--c:" + unit.color,
+          onclick: () => (location.hash = "theme/" + t.id)
+        }, [
+          el("div", { class: "game-emoji", text: t.emoji }),
+          el("div", { class: "game-ar", text: t.ar }),
+          el("div", { class: "game-desc", text: t.words.length + " كلمات" })
+        ])
+      );
+    });
+    if (window.SENTENCES && SENTENCES[unitId] && SENTENCES[unitId].length) {
+      grid.appendChild(
+        el("button", {
+          class: "game-card sentence-tile",
+          style: "--c:" + unit.color,
+          onclick: () => (location.hash = "sentence/" + unitId)
+        }, [
+          el("div", { class: "game-emoji", text: "💬" }),
+          el("div", { class: "game-ar", text: "كوّن الجملة" }),
+          el("div", { class: "game-desc", text: "رتّب الكلمات لتكوين جملة" })
+        ])
+      );
+    }
+    root.appendChild(grid);
+  }
+
+  function sentenceScreen(unitId) {
+    const unit = UNITS.find(u => u.id === unitId);
+    const game = window.Games && window.Games.sentence;
+    if (!unit || !game || !(window.SENTENCES && SENTENCES[unitId])) return (location.hash = "");
+    root.innerHTML = "";
+    root.appendChild(UI.topBar("💬 كوّن الجملة", "unit/" + unitId));
+    const container = el("div", { class: "game-area" });
+    root.appendChild(container);
+    game.render(container, { id: unitId, color: unit.color, sentences: SENTENCES[unitId] });
+  }
+
   function themeScreen(themeId) {
     const theme = THEMES.find(t => t.id === themeId);
     if (!theme) return (location.hash = "");
     root.innerHTML = "";
-    root.appendChild(UI.topBar(theme.emoji + " " + theme.ar, ""));
+    root.appendChild(UI.topBar(theme.emoji + " " + theme.ar, "unit/" + theme.unit));
     root.appendChild(
       el("p", { class: "hint", text: "ابدأ بالتعلّم ثم اجتز الاختبارَين بالترتيب 👇" })
     );
@@ -261,8 +310,10 @@
     const h = location.hash.replace(/^#/, "");
     const parts = h.split("/").filter(Boolean);
     window.scrollTo(0, 0);
-    if (parts[0] === "theme" && parts[1]) themeScreen(parts[1]);
+    if (parts[0] === "unit" && parts[1]) unitScreen(parts[1]);
+    else if (parts[0] === "theme" && parts[1]) themeScreen(parts[1]);
     else if (parts[0] === "game" && parts[1] && parts[2]) gameScreen(parts[1], parts[2]);
+    else if (parts[0] === "sentence" && parts[1]) sentenceScreen(parts[1]);
     else homeScreen();
     ensureSoundButton();
     Stars.refresh();

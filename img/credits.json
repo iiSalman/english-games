@@ -1,5 +1,60 @@
 [
   {
+    "file": "img/animals/hyena.jpg",
+    "word": "hyena",
+    "title": "Hyena",
+    "creator": "U.S. Geological Survey",
+    "license": "CC0",
+    "license_version": "1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "source_page": "https://www.flickr.com/photos/27784370@N05/13558708083",
+    "source": "flickr"
+  },
+  {
+    "file": "img/animals/ostrich.jpg",
+    "word": "ostrich",
+    "title": "Ostrich Bird",
+    "creator": "Ryan McGuire",
+    "license": "CC0",
+    "license_version": "1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "source_page": "https://stocksnap.io/photo/ostrich-bird-6C0AA44A92",
+    "source": "stocksnap"
+  },
+  {
+    "file": "img/furniture/cupboard.jpg",
+    "word": "cupboard",
+    "title": "Apex Cambridge Kitchen",
+    "creator": "larkandlarks",
+    "license": "BY",
+    "license_version": "2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/",
+    "source_page": "https://www.flickr.com/photos/124705972@N06/14455423103",
+    "source": "flickr"
+  },
+  {
+    "file": "img/furniture/fridge.jpg",
+    "word": "fridge",
+    "title": "New refrigerator at new house 01.11.2008",
+    "creator": "bossco",
+    "license": "BY-SA",
+    "license_version": "2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "source_page": "https://www.flickr.com/photos/43521640@N00/2188522576",
+    "source": "flickr"
+  },
+  {
+    "file": "img/furniture/table.jpg",
+    "word": "table",
+    "title": "Teak garden furniture and wooden decking",
+    "creator": "Crinklecrankle.com",
+    "license": "BY",
+    "license_version": "2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/",
+    "source_page": "https://www.flickr.com/photos/35589815@N02/3294841707",
+    "source": "flickr"
+  },
+  {
     "file": "img/house/bathroom.jpg",
     "word": "bathroom",
     "title": "Bathroom tiled; no grout",
@@ -207,5 +262,27 @@
     "license_url": "https://creativecommons.org/licenses/by/2.0/",
     "source_page": "https://www.flickr.com/photos/11946169@N00/14352565728",
     "source": "flickr"
+  },
+  {
+    "file": "img/school/eraser.jpg",
+    "word": "eraser",
+    "title": "to err is human",
+    "creator": "pj_vanf",
+    "license": "BY",
+    "license_version": "2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/",
+    "source_page": "https://www.flickr.com/photos/48066826@N02/5006945413",
+    "source": "flickr"
+  },
+  {
+    "file": "img/school/glue.jpg",
+    "word": "glue",
+    "title": "Glue Stick",
+    "creator": "JustKronos",
+    "license": "CC0",
+    "license_version": "1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en/",
+    "source_page": "https://commons.wikimedia.org/w/index.php?curid=184394743",
+    "source": "wikimedia"
   }
 ]
