@@ -36,6 +36,35 @@ body { padding: 16px; overflow-x: hidden; }
 }
 .subtitle { font-size: 1.15rem; margin: 0 0 14px; opacity: 0.95; }
 
+/* Grade picker — a pill-shaped segmented control under the subtitle. */
+.grade-switch {
+  display: inline-flex;
+  gap: 6px;
+  padding: 6px;
+  margin: 0 auto 18px;
+  background: rgba(255, 255, 255, 0.22);
+  border-radius: 999px;
+  backdrop-filter: blur(4px);
+}
+.grade-btn {
+  border: 0;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 1rem;
+  color: #fff;
+  background: transparent;
+  padding: 9px 18px;
+  border-radius: 999px;
+  transition: transform 0.08s, background 0.15s;
+}
+.grade-btn:active { transform: scale(0.95); }
+.grade-btn.on {
+  background: #fff;
+  color: #2b2d42;
+  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.15);
+}
+
 .star-badge {
   display: inline-flex;
   align-items: center;

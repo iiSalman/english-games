@@ -160,6 +160,26 @@
 
   window.UI = { el, shuffle, pickN, enWord, pic, progress, topBar, roundComplete, nextStep };
 
+  // Grade picker: a segmented control letting the child switch between the
+  // Grade 2 and Grade 3 word banks. Re-renders home so the units update.
+  function gradeSwitcher() {
+    const wrap = el("div", { class: "grade-switch", role: "group", "aria-label": "اختر الصف" });
+    GRADES.forEach(g => {
+      const on = g.id === CURRENT_GRADE;
+      wrap.appendChild(
+        el("button", {
+          class: "grade-btn" + (on ? " on" : ""),
+          onclick: () => {
+            if (g.id === CURRENT_GRADE) return;
+            setGrade(g.id);
+            homeScreen();
+          }
+        }, [g.emoji + " " + g.label])
+      );
+    });
+    return wrap;
+  }
+
   // ---- screens ----
   function homeScreen() {
     hideBackButton();
@@ -170,7 +190,8 @@
         el("span", { "data-star-total": "1", text: String(Stars.get()) })
       ]),
       el("h1", { class: "logo", text: "ألعاب الإنجليزي" }),
-      el("p", { class: "subtitle", text: "اختر وحدة وابدأ التعلّم! 🎈" })
+      el("p", { class: "subtitle", text: "اختر وحدة وابدأ التعلّم! 🎈" }),
+      gradeSwitcher()
     ]);
 
     const grid = el("div", { class: "theme-grid" });

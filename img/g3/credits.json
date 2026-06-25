@@ -1,0 +1,1182 @@
+[
+  {
+    "file": "img/g3/g3-weekend/cleaned.jpg",
+    "word": "cleaned",
+    "theme": "g3-weekend",
+    "title": "a child cleaning a bedroom with a broom and dustpan, smiling",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-weekend/played.jpg",
+    "word": "played",
+    "theme": "g3-weekend",
+    "title": "a child playing a video game with a controller, happy",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-weekend/watched.jpg",
+    "word": "watched",
+    "theme": "g3-weekend",
+    "title": "a child sitting watching television",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-weekend/cooked.jpg",
+    "word": "cooked",
+    "theme": "g3-weekend",
+    "title": "a child cooking food in a frying pan at a stove",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-weekend/studied.jpg",
+    "word": "studied",
+    "theme": "g3-weekend",
+    "title": "a child studying at a desk with an open book",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-weekend/practiced.jpg",
+    "word": "practiced",
+    "theme": "g3-weekend",
+    "title": "a child practicing playing a piano",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-weekend/kicked.jpg",
+    "word": "kicked",
+    "theme": "g3-weekend",
+    "title": "a child kicking a soccer ball with their foot",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-weekend/stayed.jpg",
+    "word": "stayed",
+    "theme": "g3-weekend",
+    "title": "a child relaxing at home on a sofa",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-comments/fantastic.jpg",
+    "word": "fantastic",
+    "theme": "g3-comments",
+    "title": "a child with a huge amazed wow expression, thumbs up, sparkles",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-comments/great.jpg",
+    "word": "great",
+    "theme": "g3-comments",
+    "title": "a child smiling and giving a thumbs up",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-comments/okay.jpg",
+    "word": "okay",
+    "theme": "g3-comments",
+    "title": "a child making an okay hand sign, neutral calm smile",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-comments/boring.jpg",
+    "word": "boring",
+    "theme": "g3-comments",
+    "title": "a bored child yawning, half-closed eyes, dull expression",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-comments/scary.jpg",
+    "word": "scary",
+    "theme": "g3-comments",
+    "title": "a frightened child with a scared shocked face, hands on cheeks",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-food/burger.jpg",
+    "word": "burger",
+    "theme": "g3-food",
+    "title": "a single hamburger with bun lettuce and cheese",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-food/fries.jpg",
+    "word": "fries",
+    "theme": "g3-food",
+    "title": "a plate of french fries",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-food/soup.jpg",
+    "word": "soup",
+    "theme": "g3-food",
+    "title": "a steaming bowl of soup with a spoon",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-food/water.jpg",
+    "word": "water",
+    "theme": "g3-food",
+    "title": "a clear glass of water",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-food/flour.jpg",
+    "word": "flour",
+    "theme": "g3-food",
+    "title": "a bag of flour with a small pile of flour, for baking",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-food/eggs.jpg",
+    "word": "eggs",
+    "theme": "g3-food",
+    "title": "a few white chicken eggs",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-food/milk.jpg",
+    "word": "milk",
+    "theme": "g3-food",
+    "title": "a tall glass of milk",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-food/apples.jpg",
+    "word": "apples",
+    "theme": "g3-food",
+    "title": "two shiny red apples",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-feelings/happy.jpg",
+    "word": "happy",
+    "theme": "g3-feelings",
+    "title": "a very happy child with a big smile",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-feelings/sad.jpg",
+    "word": "sad",
+    "theme": "g3-feelings",
+    "title": "a sad child with tears, frowning",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-feelings/scared.jpg",
+    "word": "scared",
+    "theme": "g3-feelings",
+    "title": "a scared child with a frightened face",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-feelings/worried.jpg",
+    "word": "worried",
+    "theme": "g3-feelings",
+    "title": "a worried anxious child biting nails, nervous face",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-feelings/excited.jpg",
+    "word": "excited",
+    "theme": "g3-feelings",
+    "title": "an excited child cheering with arms up, joyful",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-pasttime/won.jpg",
+    "word": "won",
+    "theme": "g3-pasttime",
+    "title": "a happy child holding a gold trophy above their head, winner",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-pasttime/lost.jpg",
+    "word": "lost",
+    "theme": "g3-pasttime",
+    "title": "a disappointed child who lost a game, sad slumped",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-pasttime/saw.jpg",
+    "word": "saw",
+    "theme": "g3-pasttime",
+    "title": "a child pointing and looking at something with wide eyes, binoculars",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-pasttime/made.jpg",
+    "word": "made",
+    "theme": "g3-pasttime",
+    "title": "a child proudly holding a craft they made with their hands",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-pasttime/broke.jpg",
+    "word": "broke",
+    "theme": "g3-pasttime",
+    "title": "a child with a broken arm in a white plaster cast and sling",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-pasttime/caught.jpg",
+    "word": "caught",
+    "theme": "g3-pasttime",
+    "title": "a child sneezing into a tissue, caught a cold, runny nose",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-pasttime/got.jpg",
+    "word": "got",
+    "theme": "g3-pasttime",
+    "title": "a child happily receiving a wrapped gift box",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-pasttime/had.jpg",
+    "word": "had",
+    "theme": "g3-pasttime",
+    "title": "a child holding out an open hand showing they have something",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-events/ufo.jpg",
+    "word": "UFO",
+    "theme": "g3-events",
+    "title": "a cartoon flying saucer ufo with lights in a starry sky",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-events/shooting_star.jpg",
+    "word": "shooting star",
+    "theme": "g3-events",
+    "title": "a bright shooting star with a glowing tail in a night sky",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-events/operation.jpg",
+    "word": "operation",
+    "theme": "g3-events",
+    "title": "a friendly hospital surgery scene, doctor in mask, operating room",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-events/cold.jpg",
+    "word": "cold",
+    "theme": "g3-events",
+    "title": "a child sick with a cold, red nose, thermometer, blanket",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-events/race.jpg",
+    "word": "race",
+    "theme": "g3-events",
+    "title": "children running a race toward a finish line",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-events/trophy.jpg",
+    "word": "trophy",
+    "theme": "g3-events",
+    "title": "a shiny gold trophy cup",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-subjects/math.jpg",
+    "word": "math",
+    "theme": "g3-subjects",
+    "title": "a math blackboard with numbers and plus minus equals signs",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-subjects/science.jpg",
+    "word": "science",
+    "theme": "g3-subjects",
+    "title": "science lab beakers and test tubes with colorful liquid",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-subjects/english.jpg",
+    "word": "English",
+    "theme": "g3-subjects",
+    "title": "the english alphabet letters ABC on flashcards",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-subjects/art.jpg",
+    "word": "art",
+    "theme": "g3-subjects",
+    "title": "a child painting a picture with a paintbrush and palette",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-subjects/pe.jpg",
+    "word": "PE",
+    "theme": "g3-subjects",
+    "title": "children doing physical education sports exercise in a gym",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-subjects/history.jpg",
+    "word": "history",
+    "theme": "g3-subjects",
+    "title": "an old history scroll and ancient column, museum",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-subjects/social_studies.jpg",
+    "word": "social studies",
+    "theme": "g3-subjects",
+    "title": "a globe of the earth with a world map",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-schoolplaces/library.jpg",
+    "word": "library",
+    "theme": "g3-schoolplaces",
+    "title": "a library with tall bookshelves full of books",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-schoolplaces/classroom.jpg",
+    "word": "classroom",
+    "theme": "g3-schoolplaces",
+    "title": "a school classroom with desks and a chalkboard",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-schoolplaces/hall.jpg",
+    "word": "hall",
+    "theme": "g3-schoolplaces",
+    "title": "a long empty school hallway with lockers",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-schoolplaces/school_yard.jpg",
+    "word": "school yard",
+    "theme": "g3-schoolplaces",
+    "title": "a school playground yard with children playing",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-schoolplaces/uniform.jpg",
+    "word": "uniform",
+    "theme": "g3-schoolplaces",
+    "title": "a school uniform outfit, shirt and trousers on a hanger",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-schoolplaces/school_bus.jpg",
+    "word": "school bus",
+    "theme": "g3-schoolplaces",
+    "title": "a yellow school bus",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-schoolplaces/teacher.jpg",
+    "word": "teacher",
+    "theme": "g3-schoolplaces",
+    "title": "a friendly teacher standing at a chalkboard in a classroom",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-ordinals/first.jpg",
+    "word": "first",
+    "theme": "g3-ordinals",
+    "title": "a big number 1 with a gold first place ribbon",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-ordinals/second.jpg",
+    "word": "second",
+    "theme": "g3-ordinals",
+    "title": "a big number 2 with a silver second place ribbon",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-ordinals/third.jpg",
+    "word": "third",
+    "theme": "g3-ordinals",
+    "title": "a big number 3 with a bronze third place ribbon",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-ordinals/fourth.jpg",
+    "word": "fourth",
+    "theme": "g3-ordinals",
+    "title": "a big bold number 4",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-ordinals/fifth.jpg",
+    "word": "fifth",
+    "theme": "g3-ordinals",
+    "title": "a big bold number 5",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-ordinals/sixth.jpg",
+    "word": "sixth",
+    "theme": "g3-ordinals",
+    "title": "a big bold number 6",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-routine/wake.jpg",
+    "word": "wake",
+    "theme": "g3-routine",
+    "title": "a child waking up in bed stretching, alarm clock morning",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-routine/breakfast.jpg",
+    "word": "breakfast",
+    "theme": "g3-routine",
+    "title": "a bowl of breakfast cereal with milk and a spoon",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-routine/brush.jpg",
+    "word": "brush",
+    "theme": "g3-routine",
+    "title": "a child brushing their teeth with a toothbrush",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-routine/shower.jpg",
+    "word": "shower",
+    "theme": "g3-routine",
+    "title": "a child taking a shower, water and bubbles",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-routine/sleep.jpg",
+    "word": "sleep",
+    "theme": "g3-routine",
+    "title": "a child sleeping peacefully in bed at night",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-routine/exercise.jpg",
+    "word": "exercise",
+    "theme": "g3-routine",
+    "title": "a child exercising, jumping jacks, sporty",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-aches/headache.jpg",
+    "word": "headache",
+    "theme": "g3-aches",
+    "title": "a child holding their head with a pained headache expression",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-aches/stomachache.jpg",
+    "word": "stomachache",
+    "theme": "g3-aches",
+    "title": "a child holding their belly with a stomachache, in pain",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-aches/toothache.jpg",
+    "word": "toothache",
+    "theme": "g3-aches",
+    "title": "a child holding their cheek with a toothache, sore tooth",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-aches/earache.jpg",
+    "word": "earache",
+    "theme": "g3-aches",
+    "title": "a child holding their ear with an earache, in pain",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-aches/doctor.jpg",
+    "word": "doctor",
+    "theme": "g3-aches",
+    "title": "a friendly doctor wearing a white coat and stethoscope",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-aches/junk_food.jpg",
+    "word": "junk food",
+    "theme": "g3-aches",
+    "title": "junk food, burger fries soda and chips pile",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-clothes/scarf.jpg",
+    "word": "scarf",
+    "theme": "g3-clothes",
+    "title": "a single warm winter scarf",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-clothes/skirt.jpg",
+    "word": "skirt",
+    "theme": "g3-clothes",
+    "title": "a single skirt clothing item",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-clothes/t_shirt.jpg",
+    "word": "T-shirt",
+    "theme": "g3-clothes",
+    "title": "a single plain t-shirt",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-clothes/trousers.jpg",
+    "word": "trousers",
+    "theme": "g3-clothes",
+    "title": "a single pair of trousers pants",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-clothes/shorts.jpg",
+    "word": "shorts",
+    "theme": "g3-clothes",
+    "title": "a single pair of shorts",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-clothes/sweater.jpg",
+    "word": "sweater",
+    "theme": "g3-clothes",
+    "title": "a single warm knitted sweater",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-clothes/warm_hat.jpg",
+    "word": "warm hat",
+    "theme": "g3-clothes",
+    "title": "a single warm winter wool hat with a pom pom",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-clothes/belt.jpg",
+    "word": "belt",
+    "theme": "g3-clothes",
+    "title": "a single leather belt with a buckle",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-stores/bakery.jpg",
+    "word": "bakery",
+    "theme": "g3-stores",
+    "title": "a bakery shop with bread and cakes in the window",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-stores/bookstore.jpg",
+    "word": "bookstore",
+    "theme": "g3-stores",
+    "title": "a bookstore shop full of books",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-stores/candy_store.jpg",
+    "word": "candy store",
+    "theme": "g3-stores",
+    "title": "a candy sweet shop with jars of colorful candy",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-stores/flower_store.jpg",
+    "word": "flower store",
+    "theme": "g3-stores",
+    "title": "a flower shop with bouquets of flowers",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-stores/stationery_store.jpg",
+    "word": "stationery store",
+    "theme": "g3-stores",
+    "title": "a stationery shop with pens pencils and notebooks",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-stores/supermarket.jpg",
+    "word": "supermarket",
+    "theme": "g3-stores",
+    "title": "a supermarket grocery store aisle with food shelves",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-directions/straight.jpg",
+    "word": "straight",
+    "theme": "g3-directions",
+    "title": "a bold green arrow pointing straight up forward, go straight",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-directions/left.jpg",
+    "word": "left",
+    "theme": "g3-directions",
+    "title": "a bold blue arrow pointing to the left",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-directions/right.jpg",
+    "word": "right",
+    "theme": "g3-directions",
+    "title": "a bold blue arrow pointing to the right",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-directions/turn.jpg",
+    "word": "turn",
+    "theme": "g3-directions",
+    "title": "a bold curved arrow showing a turn at a road corner",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-directions/map.jpg",
+    "word": "map",
+    "theme": "g3-directions",
+    "title": "a simple city street map with roads and a location pin",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-directions/minutes.jpg",
+    "word": "minutes",
+    "theme": "g3-directions",
+    "title": "a clock showing time, a few minutes",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-signs/entrance.jpg",
+    "word": "entrance",
+    "theme": "g3-signs",
+    "title": "a green entrance sign with an arrow and a doorway",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-signs/exit.jpg",
+    "word": "exit",
+    "theme": "g3-signs",
+    "title": "a glowing green running man exit sign symbol with an arrow and a door, emergency exit pictogram",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-signs/stop.jpg",
+    "word": "stop",
+    "theme": "g3-signs",
+    "title": "a plain red octagon traffic sign shape with thick white border, smooth flat, completely blank, absolutely no letters no text no words",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-signs/no_parking.jpg",
+    "word": "no parking",
+    "theme": "g3-signs",
+    "title": "a no parking sign, a white letter P inside a red circle with a red diagonal line through it",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-signs/no_litter.jpg",
+    "word": "no litter",
+    "theme": "g3-signs",
+    "title": "a do not litter sign, person throwing trash in bin crossed",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-signs/police.jpg",
+    "word": "police",
+    "theme": "g3-signs",
+    "title": "a police car with lights",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-activities/camping.jpg",
+    "word": "camping",
+    "theme": "g3-activities",
+    "title": "a camping tent at a campsite with trees",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-activities/sightseeing.jpg",
+    "word": "sightseeing",
+    "theme": "g3-activities",
+    "title": "a tourist sightseeing taking a photo with a camera",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-activities/fishing.jpg",
+    "word": "fishing",
+    "theme": "g3-activities",
+    "title": "a child fishing with a fishing rod by a lake",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-activities/sailing.jpg",
+    "word": "sailing",
+    "theme": "g3-activities",
+    "title": "a sailboat sailing on the blue sea",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-activities/skiing.jpg",
+    "word": "skiing",
+    "theme": "g3-activities",
+    "title": "a person skiing down a snowy mountain",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-activities/diving.jpg",
+    "word": "diving",
+    "theme": "g3-activities",
+    "title": "a scuba diver diving underwater with fish",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-activities/shopping.jpg",
+    "word": "shopping",
+    "theme": "g3-activities",
+    "title": "a person shopping holding many shopping bags",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-activities/snowboarding.jpg",
+    "word": "snowboarding",
+    "theme": "g3-activities",
+    "title": "a person snowboarding on snow",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-places/makkah.jpg",
+    "word": "Makkah",
+    "theme": "g3-places",
+    "title": "the holy Kaaba in Makkah, mosque, simple illustration",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-places/riyadh.jpg",
+    "word": "Riyadh",
+    "theme": "g3-places",
+    "title": "Riyadh city skyline with Kingdom Tower, Saudi Arabia",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-places/jeddah.jpg",
+    "word": "Jeddah",
+    "theme": "g3-places",
+    "title": "Jeddah corniche waterfront with the king fahd fountain, Saudi Arabia",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-places/sydney.jpg",
+    "word": "Sydney",
+    "theme": "g3-places",
+    "title": "the Sydney Opera House by the water, Australia",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-places/dubai.jpg",
+    "word": "Dubai",
+    "theme": "g3-places",
+    "title": "the Burj Khalifa and Dubai skyline",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-places/paris.jpg",
+    "word": "Paris",
+    "theme": "g3-places",
+    "title": "the Eiffel Tower in Paris",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-nature/snow.jpg",
+    "word": "snow",
+    "theme": "g3-nature",
+    "title": "a snowy winter landscape with falling snow",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-nature/sea.jpg",
+    "word": "sea",
+    "theme": "g3-nature",
+    "title": "the deep blue sea ocean with waves",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-nature/beach.jpg",
+    "word": "beach",
+    "theme": "g3-nature",
+    "title": "a sunny sandy beach with the sea and palm tree",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-nature/museum.jpg",
+    "word": "museum",
+    "theme": "g3-nature",
+    "title": "a museum building with columns",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-nature/desert.jpg",
+    "word": "desert",
+    "theme": "g3-nature",
+    "title": "a desert with sand dunes and a camel",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3/g3-nature/postcard.jpg",
+    "word": "postcard",
+    "theme": "g3-nature",
+    "title": "a travel postcard with a stamp",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  }
+]
