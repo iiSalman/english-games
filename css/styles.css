@@ -283,14 +283,16 @@ body { padding: 16px; overflow-x: hidden; }
 .step-card.learn .step-tag { color: #2a7; background: #e6f7ee; }
 
 /* ---------- Connect the correct ones ---------- */
-.connect-wrap { display: flex; gap: 26px; justify-content: center; width: min(94vw, 460px); }
+.connect-wrap { display: flex; gap: 18px; justify-content: center; width: min(94vw, 460px); }
 .connect-col { display: flex; flex-direction: column; gap: 12px; flex: 1; }
 .connect-item {
   background: #fff;
   border: none;
   border-radius: 16px;
   padding: 14px 8px;
-  min-height: 58px;
+  /* Both columns share one fixed row height so word N lines up with picture N. */
+  height: 96px;
+  box-sizing: border-box;
   cursor: pointer;
   box-shadow: var(--shadow);
   display: flex; align-items: center; justify-content: center;
@@ -304,8 +306,9 @@ body { padding: 16px; overflow-x: hidden; }
 .connect-item.shake { animation: shake 0.4s ease; background: #ffe0e0; }
 .connect-emoji { line-height: 1; }
 
-/* ---------- Real photos for vocabulary words ---------- */
-.word-img { object-fit: cover; border-radius: 12px; display: block; background: #e9ecf5; }
+/* ---------- Real photos / illustrations for vocabulary words ---------- */
+/* contain (not cover) so the whole picture is always visible, never cropped. */
+.word-img { object-fit: contain; border-radius: 12px; display: block; background: #fff; }
 .word-img.spell-emoji { width: 84px; height: 84px; }
 
 /* Photo with the Arabic word written across the bottom */
@@ -323,8 +326,8 @@ body { padding: 16px; overflow-x: hidden; }
   line-height: 1.15;
   text-shadow: 0 1px 3px rgba(0,0,0,0.7);
 }
-.connect-item.pic { padding: 6px; }
-.connect-item.pic .pic-fig { width: 100%; height: 84px; }
+.connect-item.pic { padding: 5px; }
+.connect-item.pic .pic-fig { width: 100%; height: 100%; }
 .connect-item.pic .pic-cap { font-size: 1rem; padding-top: 14px; }
 .choice-card .pic-fig { width: 100%; height: 100%; border-radius: 22px; }
 .choice-card .pic-cap { font-size: 1.25rem; }
