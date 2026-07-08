@@ -1,0 +1,582 @@
+[
+  {
+    "file": "img/g3t1/g3t1-greetings/hello.jpg",
+    "word": "hello",
+    "theme": "g3t1-greetings",
+    "title": "a child waving hello",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3t1/g3t1-greetings/hi.jpg",
+    "word": "hi",
+    "theme": "g3t1-greetings",
+    "title": "a boy saying hi",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3t1/g3t1-greetings/good_morning.jpg",
+    "word": "good morning",
+    "theme": "g3t1-greetings",
+    "title": "a child in the morning sun",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3t1/g3t1-greetings/good_afternoon.jpg",
+    "word": "good afternoon",
+    "theme": "g3t1-greetings",
+    "title": "a child in the warm afternoon",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3t1/g3t1-greetings/goodbye.jpg",
+    "word": "goodbye",
+    "theme": "g3t1-greetings",
+    "title": "a child waving goodbye",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3t1/g3t1-greetings/welcome.jpg",
+    "word": "welcome",
+    "theme": "g3t1-greetings",
+    "title": "a child welcoming with open arms",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3t1/g3t1-meeting/friend.jpg",
+    "word": "friend",
+    "theme": "g3t1-meeting",
+    "title": "two friends smiling together",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3t1/g3t1-meeting/name.jpg",
+    "word": "name",
+    "theme": "g3t1-meeting",
+    "title": "a child with a blank name tag",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3t1/g3t1-meeting/shake_hands.jpg",
+    "word": "shake hands",
+    "theme": "g3t1-meeting",
+    "title": "two children shaking hands",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3t1/g3t1-meeting/wave.jpg",
+    "word": "wave",
+    "theme": "g3t1-meeting",
+    "title": "a child waving",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3t1/g3t1-meeting/new_student.jpg",
+    "word": "new student",
+    "theme": "g3t1-meeting",
+    "title": "a new student with a backpack",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3t1/g3t1-meeting/teacher.jpg",
+    "word": "teacher",
+    "theme": "g3t1-meeting",
+    "title": "a friendly teacher",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3t1/g3t1-seaanimals/fish.jpg",
+    "word": "fish",
+    "theme": "g3t1-seaanimals",
+    "title": "an orange fish",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3t1/g3t1-seaanimals/shark.jpg",
+    "word": "shark",
+    "theme": "g3t1-seaanimals",
+    "title": "a friendly shark",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3t1/g3t1-seaanimals/whale.jpg",
+    "word": "whale",
+    "theme": "g3t1-seaanimals",
+    "title": "a blue whale",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3t1/g3t1-seaanimals/dolphin.jpg",
+    "word": "dolphin",
+    "theme": "g3t1-seaanimals",
+    "title": "a jumping dolphin",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3t1/g3t1-seaanimals/octopus.jpg",
+    "word": "octopus",
+    "theme": "g3t1-seaanimals",
+    "title": "a purple octopus",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3t1/g3t1-seaanimals/crab.jpg",
+    "word": "crab",
+    "theme": "g3t1-seaanimals",
+    "title": "a red crab",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3t1/g3t1-seaanimals/jellyfish.jpg",
+    "word": "jellyfish",
+    "theme": "g3t1-seaanimals",
+    "title": "a pink jellyfish",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3t1/g3t1-seaanimals/seahorse.jpg",
+    "word": "seahorse",
+    "theme": "g3t1-seaanimals",
+    "title": "a yellow seahorse",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3t1/g3t1-seaanimals/turtle.jpg",
+    "word": "turtle",
+    "theme": "g3t1-seaanimals",
+    "title": "a sea turtle",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3t1/g3t1-sports/soccer.jpg",
+    "word": "soccer",
+    "theme": "g3t1-sports",
+    "title": "a child playing soccer",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3t1/g3t1-sports/basketball.jpg",
+    "word": "basketball",
+    "theme": "g3t1-sports",
+    "title": "a child with a basketball",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3t1/g3t1-sports/tennis.jpg",
+    "word": "tennis",
+    "theme": "g3t1-sports",
+    "title": "a child with a tennis racket",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3t1/g3t1-sports/swimming.jpg",
+    "word": "swimming",
+    "theme": "g3t1-sports",
+    "title": "a child swimming",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3t1/g3t1-sports/running.jpg",
+    "word": "running",
+    "theme": "g3t1-sports",
+    "title": "a child running",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3t1/g3t1-sports/cycling.jpg",
+    "word": "cycling",
+    "theme": "g3t1-sports",
+    "title": "a child cycling",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3t1/g3t1-activities/jump.jpg",
+    "word": "jump",
+    "theme": "g3t1-activities",
+    "title": "a child jumping",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3t1/g3t1-activities/throw.jpg",
+    "word": "throw",
+    "theme": "g3t1-activities",
+    "title": "a child throwing a ball",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3t1/g3t1-activities/catch.jpg",
+    "word": "catch",
+    "theme": "g3t1-activities",
+    "title": "a child catching a ball",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3t1/g3t1-activities/ride_a_bike.jpg",
+    "word": "ride a bike",
+    "theme": "g3t1-activities",
+    "title": "a child riding a bike",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3t1/g3t1-activities/fly_a_kite.jpg",
+    "word": "fly a kite",
+    "theme": "g3t1-activities",
+    "title": "a child flying a kite",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3t1/g3t1-activities/skate.jpg",
+    "word": "skate",
+    "theme": "g3t1-activities",
+    "title": "a child skating",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3t1/g3t1-chores/wash_the_dishes.jpg",
+    "word": "wash the dishes",
+    "theme": "g3t1-chores",
+    "title": "a child washing dishes",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3t1/g3t1-chores/sweep_the_floor.jpg",
+    "word": "sweep the floor",
+    "theme": "g3t1-chores",
+    "title": "a child sweeping the floor",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3t1/g3t1-chores/make_the_bed.jpg",
+    "word": "make the bed",
+    "theme": "g3t1-chores",
+    "title": "a child making the bed",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3t1/g3t1-chores/take_out_the_trash.jpg",
+    "word": "take out the trash",
+    "theme": "g3t1-chores",
+    "title": "a child taking out the trash",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3t1/g3t1-chores/water_the_plants.jpg",
+    "word": "water the plants",
+    "theme": "g3t1-chores",
+    "title": "a child watering plants",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3t1/g3t1-chores/set_the_table.jpg",
+    "word": "set the table",
+    "theme": "g3t1-chores",
+    "title": "a child setting the table",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3t1/g3t1-chores/feed_the_cat.jpg",
+    "word": "feed the cat",
+    "theme": "g3t1-chores",
+    "title": "a child feeding a cat",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3t1/g3t1-yesterday/yesterday.jpg",
+    "word": "yesterday",
+    "theme": "g3t1-yesterday",
+    "title": "a calendar showing yesterday",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3t1/g3t1-yesterday/went.jpg",
+    "word": "went",
+    "theme": "g3t1-yesterday",
+    "title": "a child who went out",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3t1/g3t1-yesterday/played.jpg",
+    "word": "played",
+    "theme": "g3t1-yesterday",
+    "title": "a child who played",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3t1/g3t1-yesterday/ate.jpg",
+    "word": "ate",
+    "theme": "g3t1-yesterday",
+    "title": "a child who ate",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3t1/g3t1-yesterday/watched.jpg",
+    "word": "watched",
+    "theme": "g3t1-yesterday",
+    "title": "a child who watched TV",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3t1/g3t1-today/today.jpg",
+    "word": "today",
+    "theme": "g3t1-today",
+    "title": "a calendar showing today",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3t1/g3t1-today/go.jpg",
+    "word": "go",
+    "theme": "g3t1-today",
+    "title": "a child going",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3t1/g3t1-today/play.jpg",
+    "word": "play",
+    "theme": "g3t1-today",
+    "title": "a child playing now",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3t1/g3t1-today/eat.jpg",
+    "word": "eat",
+    "theme": "g3t1-today",
+    "title": "a child eating",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3t1/g3t1-today/read.jpg",
+    "word": "read",
+    "theme": "g3t1-today",
+    "title": "a child reading a book",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3t1/g3t1-jobs/doctor.jpg",
+    "word": "doctor",
+    "theme": "g3t1-jobs",
+    "title": "a friendly doctor",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3t1/g3t1-jobs/teacher.jpg",
+    "word": "teacher",
+    "theme": "g3t1-jobs",
+    "title": "a teacher with a book",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3t1/g3t1-jobs/engineer.jpg",
+    "word": "engineer",
+    "theme": "g3t1-jobs",
+    "title": "an engineer with a helmet",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3t1/g3t1-jobs/nurse.jpg",
+    "word": "nurse",
+    "theme": "g3t1-jobs",
+    "title": "a friendly nurse",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3t1/g3t1-jobs/pilot.jpg",
+    "word": "pilot",
+    "theme": "g3t1-jobs",
+    "title": "an airplane pilot",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3t1/g3t1-jobs/chef.jpg",
+    "word": "chef",
+    "theme": "g3t1-jobs",
+    "title": "a happy chef",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3t1/g3t1-jobs/police_officer.jpg",
+    "word": "police officer",
+    "theme": "g3t1-jobs",
+    "title": "a friendly police officer",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  },
+  {
+    "file": "img/g3t1/g3t1-jobs/farmer.jpg",
+    "word": "farmer",
+    "theme": "g3t1-jobs",
+    "title": "a friendly farmer",
+    "creator": "AI-generated (Pollinations.ai, Flux)",
+    "license": "Pollinations free generation",
+    "license_url": "https://pollinations.ai",
+    "source": "pollinations"
+  }
+]
